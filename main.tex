@@ -1,0 +1,241 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{siunitx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\LARGE\scshape Vivek Vardhan Maharana} \\ \vspace{2pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91-8249379094 ~ \href{mailto:vivekvardhan2000@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{vivekvardhan2000@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/vivek-vardhan-maharana/}{\raisebox{-0.2\height}\faLinkedin\ \underline{vivek-vardhan-maharana}}  ~
+    \href{https://github.com/VivekMaharana87}{\raisebox{-0.2\height}\faGithub\ \underline{VivekMaharana87}}
+    \vspace{-8pt}
+\end{center}
+
+
+%------SUMMARY-------
+\section{Summary}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{{Results-driven Boomi Integration Developer with 2+ years of experience in Boomi AtomSphere and UKG WFM integrations, specializing in API development, Groovy scripting, automated testing, and performance-driven delivery. Proven ability to design, build, and deploy scalable interfaces while collaborating with cross-functional and global teams.} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Deloitte Consulting}{Jan 2024 -- Feb 2026}
+      {Business Analyst}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Led cross-functional coordination, stakeholder meetings, and PMO activities across multiple WFM and HCM implementations in healthcare, banking, retail, and agriculture sectors.}
+        \resumeItem{Delivered end-to-end UKG WFC to Dimensions migration for a 200K+ employee client, developing Boomi integrations and cutting high-volume job execution time from 8 hours to 48 minutes.}
+        \resumeItem{Managed sprint tracking, requirements, and defect workflows using Jira dashboards, improving cross-project coordination with PMO and senior leadership.}
+        \resumeItem{Supported hypercare activities, validated high-volume employee transactions (150K+ records), and resolved integration and data allocation issues using Groovy scripts.}
+        \resumeItem{Gathered functional, payroll, business structure, and labor hierarchy requirements; created discovery decks, process maps, and user stories aligned with client needs and compliance scenarios.}
+        \resumeItem{Built comprehensive Boomi integrations including Person Import, Business Structure Import, Accrual Profile import, Open-shift request Transfer import, Prorated Accruals iPack}
+        \resumeItem{Delivered process maps in Visio and payroll requirement documentation for 15 countries across APAC and EMEA regions.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Siemens}{May 2022 -- July 2022}
+      {Front End Developer}{Bengaluru, India}
+        \resumeItemListStart
+            \resumeItem{Implemented data source from Grafana Labs API in Python for data extraction from PLC to store and monitor data.}
+            \resumeItem{Used Matplotlib and Pandas to sub-sample the data points and visualize the data to display in a single dashboard}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Samsung - Research and Development}{June 2021 -- Jan 2022}
+      {Research Intern}{Bengaluru, India}
+        \resumeItemListStart
+            \resumeItem{Designed models that allowed for multiple iterations to refine denoising process and improve the overall image quality.}
+            \resumeItem{Reduced grain in the optimized enhanced images by implementing various ML techniques}
+        \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Image Pre-processing and Noise reduction using MIRNet and Autoencoders} $|$ \emph{Research Paper}}{}
+          \resumeItemListStart
+            \resumeItem{Led a team to build a CNN with dual attention on the TM-DIED dataset using residual and multi-scale learning.}
+            \resumeItem{Delivered a real-time, resource-efficient 4-class model with improved noise reduction and preprocessing.}
+          \resumeItemListEnd
+          \vspace{-20pt}
+          \resumeProjectHeading
+          {\textbf{Survival Prediction in Titanic Ship} $|$ \emph{Kaggle}}{}
+          \resumeItemListStart
+            \resumeItem{Developed prediction algorithm with an accuracy score of \SI{93.02}{\percent} (gain of +\SI{7.44}{\percent} than base paper) in Kaggle dataset.}
+            \resumeItem{Received a Silver badge globally for the Efficient proposed approach implementing Logistic Regression using Python.}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, C++, Groovy, JavaScript, SQL, HTML/CSS} \\
+     \textbf{Developer Tools}{: Postman, VS Code, Eclipse, Microsoft Excel, MySQL, Excel VBA} \\
+     \textbf{Web Technologies/Frameworks}{: GitHub, REST APIs, SOAP Web Services, XML, JSON} \\
+     \textbf{Boomi Components}{: Process Design, Data Mapping, Connectors, Transformations, Flow Control} \\
+     \textbf{Connectors Experience}{: Database, HTTP Client, Web Services, SFTP} \\
+     \textbf{HCM/WFM Platforms}{: UKG WFC, WFM, Pro WFM, Boomi, API Management, Postman, XML/JSON Transformation, Error Handling, Performance Optimization} \\
+     \textbf{Automation \&\ AI}{: Conversational AI Agents, Process Automation, Workflow Optimization} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Leadership / Certification}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     {UKG Certified Boomi Integration Developer \hfill \ 2024} \\
+     {Boomi Professional Integration Developer Certification \hfill 2024} \\
+     {Boomi Associate Integration Developer Certification \hfill 2024} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     {Bachelor of Technology (Computer Science and IT) $|$ {I.T.E.R} $|$ {SOA} $|$ {CGPA : 8.38/10} \hfill \ 2019 - 2023} \\
+     {12th Science $|$ DAV Public School, Chandrasekharpur $|$ \SI{90}{\percent} aggregate \hfill 2017 - 2019} \\
+     {10th CBSE $|$ DAV Public School, Chandrasekharpur $|$ \SI{93.1}{\percent} aggregate \hfill 2005 - 2017} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+\end{document}
