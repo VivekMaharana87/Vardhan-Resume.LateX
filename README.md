@@ -15,7 +15,7 @@ To compile the LaTeX file and generate the resume, you will need a LaTeX distrib
   - `\section{Work Experience}`: Add your work experience.
   - `\section{Projects}`: Add your projects or POCs.
   - `\section{Technical Skills}`: Add your programming languages and technologies.
-  - `\section{Certification}`: Add any awards or achievements.
+  - `\section{Accomplishments & Certification}`: Add any awards or achievements.
   - `\section{Education}`: Add your educational background.
   
 - Customize the icons used in the resume sections by replacing the icon name inside `\section` command with the desired icon from the Font Awesome library.
