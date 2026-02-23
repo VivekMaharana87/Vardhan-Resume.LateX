@@ -27,7 +27,7 @@ To compile the LaTeX file and generate the resume, you will need a LaTeX distrib
 
 ## File Preview
 
-![Alt text for the image](./Template_Preview.jpg)
+![Alt text for the image](./Preview.png)
 
 ## License
 
