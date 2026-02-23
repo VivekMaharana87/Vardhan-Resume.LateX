@@ -25,6 +25,10 @@ To compile the LaTeX file and generate the resume, you will need a LaTeX distrib
 - `main.tex`: Main LaTeX file containing the resume template.
 - `fonts/`: Directory containing custom font files used in the template.
 
+## File Preview
+
+![Alt text for the image](./Template_Preview.jpg)
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/VivekMaharana87/Vardhan-Resume.LateX/blob/main/LICENSE) file for details.
