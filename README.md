@@ -6,9 +6,9 @@ This repository contains a LaTeX resume template and associated files.
 
 To compile the LaTeX file and generate the resume, you will need a LaTeX distribution installed on your system. Simply run the compiler command to generate the PDF output.
 
-### Modifying `main.tex`
+### Modifying `Base_Resume.tex`
 
-- Open `main.tex` in a text editor.
+- Open `Base_Resume.tex` in a text editor.
 - Replace the placeholder text with your own information in the appropriate sections.
   - `\namesection`: Update your name, email, phone number, linkedin and Github.
   - `\section{Summary}`: Update your professional summary.
